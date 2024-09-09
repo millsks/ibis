@@ -84,6 +84,7 @@ shapely = { version = ">=2,<3", optional = true }
 # issues with versions <3.0.2
 snowflake-connector-python = { version = ">=3.0.2,<4,!=3.3.0b1", optional = true }
 trino = { version = ">=0.321,<1", optional = true }
+koerce = "^0.4.2"
 
 [tool.poetry.group.dev.dependencies]
 codespell = { version = ">=2.2.6,<3", extras = [

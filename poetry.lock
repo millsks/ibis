@@ -3343,6 +3343,54 @@ files = [
 ]
 
 [[package]]
+name = "koerce"
+version = "0.4.2"
+description = "Python Pattern Matching"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "koerce-0.4.2-cp310-cp310-macosx_13_0_x86_64.whl", hash = "sha256:041012202c2fdb7259d3ace686d3806d52e52735f3dfbff1028b125b25a91410"},
+    {file = "koerce-0.4.2-cp310-cp310-macosx_14_0_arm64.whl", hash = "sha256:92d4efcb52499d57e2b2f3fe4e3a02ce3eb1175a723a0e5d1b2f474c2a7a3007"},
+    {file = "koerce-0.4.2-cp310-cp310-manylinux_2_17_i686.manylinux_2_5_i686.manylinux1_i686.manylinux2014_i686.whl", hash = "sha256:27be71825a4bb06eeee2bda8f1aea9819443cea37195ea71bbe5ed1a59dd5088"},
+    {file = "koerce-0.4.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e84ba94db8852d4886bc7cfeff482ccb043de7eabc751887acee03e9d898db84"},
+    {file = "koerce-0.4.2-cp310-cp310-musllinux_1_2_i686.whl", hash = "sha256:04698d76373dcec9f66323c7fb155db31a02b4afc678c825d41ca6d0a2533a8e"},
+    {file = "koerce-0.4.2-cp310-cp310-musllinux_1_2_x86_64.whl", hash = "sha256:b0d574a0ec5c847c778b57a77439d2a53135964c054510d70299bc95819d21db"},
+    {file = "koerce-0.4.2-cp310-cp310-win32.whl", hash = "sha256:0a0e643a0de171c34158a7ab4948f762209d0f2b9a045fc5610193b4aae78eef"},
+    {file = "koerce-0.4.2-cp310-cp310-win_amd64.whl", hash = "sha256:15dca6e03c2f3455193c73d4f647e29a9f87b8bf937d95af0efb6348aa00089c"},
+    {file = "koerce-0.4.2-cp311-cp311-macosx_13_0_x86_64.whl", hash = "sha256:5a23430ba19c19fa189eb1879b6ec74be488033222850ada2af737f706dc4915"},
+    {file = "koerce-0.4.2-cp311-cp311-macosx_14_0_arm64.whl", hash = "sha256:4782b0629c0356a06584ff256b6a48694a939875dbe3403e21bba7152b4d7807"},
+    {file = "koerce-0.4.2-cp311-cp311-manylinux_2_17_i686.manylinux_2_5_i686.manylinux1_i686.manylinux2014_i686.whl", hash = "sha256:7046dff1d978aed6eebe9bd5200d54c914c17e50cd294642843dd8daac7ff0e7"},
+    {file = "koerce-0.4.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:dbfd3a590a7769a1bed0c94c697d5b4062066a547af8ec4a400914dceccdb46a"},
+    {file = "koerce-0.4.2-cp311-cp311-musllinux_1_2_i686.whl", hash = "sha256:12506a4865f2687f729317c15dc3e865115618bdfee8605aadac3f999e3d588d"},
+    {file = "koerce-0.4.2-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:df55e649c210387c26ef1316fdfd215bb69967a5b88326b018c33133dbb77aa4"},
+    {file = "koerce-0.4.2-cp311-cp311-win32.whl", hash = "sha256:a681800dcb4cb5016d6e3b781224783ff90f4e3db919d666f660dc6e9581ce12"},
+    {file = "koerce-0.4.2-cp311-cp311-win_amd64.whl", hash = "sha256:3caeaccd14e0acdb113cbe9c6bd45cf4c2e31211bb9a3046baea774bd066adfb"},
+    {file = "koerce-0.4.2-cp312-cp312-macosx_13_0_x86_64.whl", hash = "sha256:f473f8652bee9c9cfb46307352a081eafe24ca37f79249aad17247d4058f2e10"},
+    {file = "koerce-0.4.2-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:e844e16ddfdb5dbfb09f6b8d3b73acd05d8014a66b726d290d22129fe36544e6"},
+    {file = "koerce-0.4.2-cp312-cp312-manylinux_2_17_i686.manylinux_2_5_i686.manylinux1_i686.manylinux2014_i686.whl", hash = "sha256:4376a9f79344f7db850f2de2e2bc66e9770349285c12530054669fefcb5e9691"},
+    {file = "koerce-0.4.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:28b275c1d6aba4df11b7c0cbe8bdce59795dad414470b7b6c0880bfa4a1238c5"},
+    {file = "koerce-0.4.2-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:eb5002d1ab1eb55eac9527186a4e10eddc32d0eaa5f36a3bd1e481c1c59b7f32"},
+    {file = "koerce-0.4.2-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:ab185ede4a3c37f3c0219b1678d554841b7f03ed2bec7cdf0af8962a2af311e7"},
+    {file = "koerce-0.4.2-cp312-cp312-win32.whl", hash = "sha256:e12af7dd9237b85f7c65987b811bac0ed9621aac0346ae181c765624d613683d"},
+    {file = "koerce-0.4.2-cp312-cp312-win_amd64.whl", hash = "sha256:f0f3be531b5c2917bf5e31b376f12726dfb1bb48eb3668c25669f987bfb5e4aa"},
+    {file = "koerce-0.4.2.tar.gz", hash = "sha256:3d9c0e36678a281b0a86eaa0f7a857fa9f402e7d03be7069d5eb04ce07796173"},
+]
+
+[package.dependencies]
+typing-extensions = ">=4.12.2,<5.0.0"
+
+[[package]]
+name = "locket"
+version = "1.0.0"
+description = "File-based locks for Python on Linux and Windows"
+optional = true
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+files = [
+    {file = "locket-1.0.0-py2.py3-none-any.whl", hash = "sha256:b6c819a722f7b6bd955b80781788e4a66a55628b858d347536b7e81325a3a5e3"},
+    {file = "locket-1.0.0.tar.gz", hash = "sha256:5c0d4c052a8bbbf750e056a8e65ccd309086f4f0f18a2eac306a8dfa4112a632"},
+]
+
+[[package]]
 name = "lonboard"
 version = "0.9.3"
 description = "Fast, interactive geospatial data visualization in Jupyter."
@@ -7919,4 +7967,4 @@ visualization = ["graphviz"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "33c56e8ced59cb731699d9ae515d503f113d8e6a885d5eb5687c4b40a369327b"
+content-hash = "55ba7d893d01c58ea996fc114346345291c20f670754e9c406b1afc952d50618"
