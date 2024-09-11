@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-from abc import abstractmethod
-
 from koerce import Annotable, MatchError
 from typing_extensions import Self
 

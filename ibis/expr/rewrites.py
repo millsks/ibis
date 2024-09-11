@@ -5,7 +5,7 @@ from __future__ import annotations
 from collections import defaultdict
 
 import toolz
-from koerce import Annotable, If, Item, Replace, _, namespace, replace, var
+from koerce import Annotable, If, Item, _, namespace, replace, var
 
 import ibis.expr.operations as ops
 from ibis.common.collections import FrozenDict  # noqa: TCH001
@@ -16,7 +16,7 @@ from ibis.common.graph import traverse
 
 # from ibis.common.patterns import Check, pattern, replace
 from ibis.common.typing import VarTuple  # noqa: TCH001
-from ibis.util import Namespace, promote_list
+from ibis.util import promote_list
 
 p, d = namespace(ops)
 

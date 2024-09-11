@@ -6,7 +6,7 @@ import itertools
 from typing import Annotated, Any, Optional
 from typing import Literal as LiteralType
 
-from koerce import Is, Length, attribute  # noqa: TCH001
+from koerce import Is, Length, attribute
 from public import public
 from typing_extensions import TypeVar
 
