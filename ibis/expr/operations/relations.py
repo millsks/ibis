@@ -378,6 +378,8 @@ class Difference(Set):
 class PhysicalTable(Relation):
     """Base class for tables with a name."""
 
+    __slots__ = ("__weakref__",)
+
     name: str
     values = FrozenOrderedDict()
 

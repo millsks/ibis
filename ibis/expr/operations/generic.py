@@ -175,7 +175,7 @@ class ScalarParameter(Scalar):
 
 
 @public
-class Constant(Scalar):
+class Constant(Scalar, singleton=True):
     """A function that produces a constant."""
 
     shape = ds.scalar
